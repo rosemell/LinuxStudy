@@ -2,10 +2,10 @@
 
 int main()
 {
-    log log1;
+    Log log;
     int a=0;
     std::cin>>a;
-    log1.Enable(a);
-    log1(1,"hello:%d",1);
+    log.Enable(a);
+    log(1,"hello:%d",1);
     return 0;
 }

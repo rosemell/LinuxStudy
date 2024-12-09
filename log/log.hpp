@@ -24,15 +24,15 @@
 
 #define SIZE 1024
 
-class log
+class Log
 {
 public:
-    log()
+    Log()
     {
         _printMethod=Screen;
         _path="./log/";
     }
-    ~log()
+    ~Log()
     {
     }
     std::string levelToString(int level)
